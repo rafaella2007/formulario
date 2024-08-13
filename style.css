@@ -4,3 +4,23 @@ form label{
    color: blue;
    margin: 0 0 10px;
 }
+.copyrignt{
+   color: aliceblue;
+   background-color: blueviolet;
+}
+.enviar{
+   width: 40%;
+   padding: 15px 0;
+   background: orange;
+   color: beige;
+   font-weight: bold;
+   font-size: 18px;
+   border: none;
+   border-radius: 5px;
+   transition: 1s all;
+   cursor: pointer;
+}
+.enviar:hover{
+   background: rgb(93, 134, 211);
+   transform: scale(1.2);
+}
