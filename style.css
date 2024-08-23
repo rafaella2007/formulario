@@ -1,17 +1,23 @@
-form label{
+body{
+   background-color: rgb(192, 190, 196);
+}
+main{
+   width: 940px;
+   margin: 0 auto;
+}
+form{
+   margin: 40px 0;
+}
+form label, form legend{
    display: block;
    font-size: 20px;
-   color: blue;
+   color: rgb(0, 81, 255);
    margin: 0 0 10px;
-}
-.copyrignt{
-   color: aliceblue;
-   background-color: blueviolet;
 }
 .enviar{
    width: 40%;
    padding: 15px 0;
-   background: orange;
+   background: rgb(3, 111, 235);
    color: beige;
    font-weight: bold;
    font-size: 18px;
@@ -21,8 +27,18 @@ form label{
    cursor: pointer;
 }
 .enviar:hover{
-   background: rgb(93, 134, 211);
+   background: rgb(68, 119, 212);
    transform: scale(1.2);
+}
+footer{
+   text-align: center;
+   padding: 40px 0;
+}
+.copyrignt{
+   color: aliceblue;
+   background-color: blueviolet;
+   font-size: 13px;
+   margin: 20px 0 0;
 }
 .input-padrao{
    display: block;
