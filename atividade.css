@@ -1,0 +1,26 @@
+body{
+    font-size: 'verdana', sans-serif;
+    background-color: rgb(187, 183, 183);
+}
+table{
+    width: 50%;
+    border-collapse: collapse;
+    margin: 40px auto;
+    background-color: rgb(113, 185, 252);
+    box-shadow: 0 2px 5px gray;
+}
+thead th{
+    background-color: rgb(87, 149, 243);
+    border: 1px solid rgb(179, 199, 221);
+    padding: 8px;
+    text-align: left;
+}
+th{
+    background-color: rgb(6, 131, 240);
+}
+tr:nth-child(even){
+    background-color: rgb(255, 255, 255);
+}
+tr:hover{
+    background-color: rgb(255, 255, 255);
+}
