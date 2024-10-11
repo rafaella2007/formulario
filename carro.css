@@ -1,0 +1,9 @@
+body{
+    font-family: 'Monstserrat', sans-serif;
+    background-color: antiquewhite;
+}
+.produtos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
+}
