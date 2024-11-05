@@ -1,9 +1,32 @@
-body{
-    font-family: 'Monstserrat', sans-serif;
-    background-color: antiquewhite;
+/* Reset básico */
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-.produtos{
-    width: 940px;
-    margin: 0 auto;
-    padding: 50px;
+/* Modelos de Carro */
+body{
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: black;
+    background-color: beige;
+}
+
+/* Cabeçalho carro */
+.hero{
+    background-image: url(carro1.jpg);
+    background-size: cover;
+    background-position: center;
+    color: aliceblue;
+    text-align: center;
+    padding: 4rem 2rem;
+}
+
+.btn{
+    background-color: azure;
+    color: antiquewhite;
+    padding: 0.8rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1em;
 }
